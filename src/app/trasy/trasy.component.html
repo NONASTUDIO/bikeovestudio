@@ -1,0 +1,138 @@
+<div class="container">
+  <h1>TRASY</h1>
+  <br>
+
+  <p>
+
+    W bikeoveSTUDIO biorą początek wszystkie trasy rowerowe… Chętnie udzielimy wszelkich informacji i zaproponujemy
+    rowerowy wypad dla Waszej grupy. Istnieje również możliwość wyjazdu pod opieką certyfikowanego przewodnika turystyki
+    rowerowej.
+
+  </p>
+  <h2>Nadwarciański Szlak Rowerowy</h2>
+  <p class="opis">W odległości 1km od bikeoveSTUDIO przebiega malowniczy Nadwarciański Szlak Rowerowy, który może być
+    początkiem
+    dłuższych tras. Jadąc w kierunku północnym dojedziecie do Radojewa ( 6 km ), warto wspiąć się na najwyższą górkę w
+    okolicy i podziwiać piękne widoki. Jak niegdyś Napoleon, który konno przemierzał te rejony. Jest szansa, że gdzieś w
+    piasku natraficie na guzik od munduru 😉 W Radojewie trzeba odwiedzić Park Kokoryczowe Wzgórze, na przełomie zimy i
+    wiosny wyścielony żółtym dywanem rannika zimowego, który zaraz potem zastąpiony zostaje pachnącym fioletowym
+    kwieciem.
+    To już wiosna, słychać ptaki… Park jest trochę zaniedbany, ale ma swój klimat i przy odrobinie wyobraźni można
+    zobaczyć panie w kapeluszach pod parasolkami pływające łódkami po stawach, panów spacerujących wśród ponad 100
+    letnich
+    platanów, żywo dyskutujących o polityce. Wszyscy zaraz udadzą się do pałacu na podwieczorek. Opuszczonego pałacu
+    strzegą duchy rodziny Von Treskow, nie mają daleko, w Parku znajduje się cmentarz rodziny. Kto oglądał Downton Abbey
+    może zerknąć na drzwi kuchenne i okienka służby na poddaszu, na parterze od strony parku znajdowała się sala balowa…
+    Uważny obserwator znajdzie chłopską chałupinkę pamiętającą czasy rodziny Von Treskow. Tyle do zobaczenia, a to tylko
+    początek trasy…
+    <br><br>
+    Zobacz trasę na mapie tutaj.</p>
+  <div class="container">
+
+    <img *ngIf="numerWybranegoObrazka == 0" src="/assets/images/trasy/bikeoveSTUDIO_m_01.jpg" class="preview">
+    <img *ngIf="numerWybranegoObrazka == 1" src="/assets/images/trasy/bikeoveSTUDIO_m_02.jpg" alt="" class="preview">
+    <img *ngIf="numerWybranegoObrazka == 2" src="/assets/images/trasy/bikeoveSTUDIO_m_17.jpg" alt="" class="preview">
+    <img *ngIf="numerWybranegoObrazka == 3" src="/assets/images/trasy/bikeoveSTUDIO_m_31.jpg" alt="" class="preview">
+    <img *ngIf="numerWybranegoObrazka == 4" src="/assets/images/trasy/bikeoveSTUDIO_m_32.jpg" alt="" class="preview">
+
+    <img (click)="kliknietoElement(0)" [class.active]="numerWybranegoObrazka == 0"
+      src="/assets/images/trasy/bikeoveSTUDIO_m_01.jpg" class="thumb">
+
+    <img (click)="kliknietoElement(1)" [class.active]="numerWybranegoObrazka == 1"
+      src="/assets/images/trasy/bikeoveSTUDIO_m_02.jpg" class="thumb">
+
+    <img (click)="kliknietoElement(2)" [class.active]="numerWybranegoObrazka == 2"
+      src="/assets/images/trasy/bikeoveSTUDIO_m_17.jpg" class="thumb">
+
+    <img (click)="kliknietoElement(3)" [class.active]="numerWybranegoObrazka == 3"
+      src="/assets/images/trasy/bikeoveSTUDIO_m_31.jpg" class="thumb">
+
+    <img (click)="kliknietoElement(4)" [class.active]="numerWybranegoObrazka == 4"
+      src="/assets/images/trasy/bikeoveSTUDIO_m_32.jpg" class="thumb">
+
+
+  </div>
+
+  <h2>Puszcza Zielonka</h2>
+  <p class="opis">Jadąc w kierunku północnym przez Radojewo, z górki, pod górkę, przez mostek i lasek, mijając ukryty w
+    lesie stary
+    cmentarz wojskowy dojedziecie do Biedruska ( 10 km ). Stąd można udać się w kilku kierunkach, jadąc przez most na
+    rzece Warcie i dalej prosto na Trzaskowo, dotrzecie do granicy Puszczy Zielonki ( 15 km ). Puszcza Zielonka to
+    jeziora, las, cisza i 270 km tras rowerowych. Po drodze urokliwe wioski, Trzaskowo z polem golfowym, Dąbrówka
+    Kościelna z Sanktuarium Maryjnym, Zielonka z arboretum, czy Kamińsko z plażą. Każdy znajdzie coś dla siebie…
+    <br><br>
+    Zobacz trasę na mapie tutaj.</p>
+
+  <div class="container">
+
+    <img *ngIf="numerWybranegoObrazka == 5" src="/assets/images/trasy/bikeoveSTUDIO_m_19.jpg" class="preview">
+    <img *ngIf="numerWybranegoObrazka == 6" src="/assets/images/trasy/bikeoveSTUDIO_m_24.jpg" alt="" class="preview">
+    <img *ngIf="numerWybranegoObrazka == 7" src="/assets/images/trasy/bikeoveSTUDIO_m_39.jpg" alt="" class="preview">
+    <img *ngIf="numerWybranegoObrazka == 8" src="/assets/images/trasy/noclegi_dla_rowerzystow_bo17.jpg" alt=""
+      class="preview">
+    <img *ngIf="numerWybranegoObrazka == 9" src="/assets/images/trasy/noclegi_dla_rowerzystow_bo59.jpg" alt=""
+      class="preview">
+
+    <img (click)="kliknietoElement(5)" [class.active]="numerWybranegoObrazka == 5"
+      src="/assets/images/trasy/bikeoveSTUDIO_m_19.jpg" class="thumb">
+
+    <img (click)="kliknietoElement(6)" [class.active]="numerWybranegoObrazka == 6"
+      src="/assets/images/trasy/bikeoveSTUDIO_m_24.jpg" class="thumb">
+
+    <img (click)="kliknietoElement(7)" [class.active]="numerWybranegoObrazka == 7"
+      src="/assets/images/trasy/bikeoveSTUDIO_m_39.jpg" class="thumb">
+
+    <img (click)="kliknietoElement(8)" [class.active]="numerWybranegoObrazka == 8"
+      src="/assets/images/trasy/noclegi_dla_rowerzystow_bo17.jpg" class="thumb">
+
+    <img (click)="kliknietoElement(9)" [class.active]="numerWybranegoObrazka == 9"
+      src="/assets/images/trasy/noclegi_dla_rowerzystow_bo59.jpg" class="thumb">
+
+
+  </div>
+
+  <h2>Wielkopolski Park Narodowy</h2>
+  <p class="opis">Jadąc Nadwarciańskim Szlakiem Rowerowym w kierunku południowym dojedziecie do Wielkopolskiego Parku
+    Narodowego. Po
+    drodze miniecie Ostrów Tumski, przejedziecie asfaltowym odcinkiem Wartostrady koło KontenerArt, miejsca wypoczynku,
+    rekreacji sportowej i wydarzeń kulturalnych. Będzie okazja odwiedzenia kilku fantastycznych parków i skwerów,
+    odkrycia
+    centrum Poznania. Trasa dalej prowadzi niezwykle malowniczą drogą wzdłuż Warty wśród zieleni, przez Luboń,
+    dojedziecie
+    do Puszczykowa, atrakcyjnej miejscowości, niegdyś letniskowej, o ciekawej architekturze rezydencjonalnej. W
+    Puszczykowie mieści się Muzeum Arkadego Fiedlera w domu nadal zamieszkiwanym przez rodzinę podróżnika. Wielkopolski
+    Park Narodowy to atrakcyjne przyrodniczo miejsce w bezpośredniej bliskości miasta z wieloma opcjami na rowerowe
+    odkrycia…
+    <br><br>
+    Zobacz trasę na mapie tutaj.</p>
+
+
+
+  <img *ngIf="numerWybranegoObrazka == 10" src="/assets/images/trasy/noclegi_dla_rowerzystow_wpn_02.jpg"
+    class="preview">
+  <img *ngIf="numerWybranegoObrazka == 11" src="/assets/images/trasy/noclegi_dla_rowerzystow_wpn_05.jpg" alt=""
+    class="preview">
+  <img *ngIf="numerWybranegoObrazka == 12" src="/assets/images/trasy/noclegi_dla_rowerzystow_wpn_08.jpg" alt=""
+    class="preview">
+  <img *ngIf="numerWybranegoObrazka == 13" src="/assets/images/trasy/noclegi_dla_rowerzystow_wpn_10.jpg" alt=""
+    class="preview">
+  <img *ngIf="numerWybranegoObrazka == 14" src="/assets/images/trasy/noclegi_dla_rowerzystow_wpn_11.jpg" alt=""
+    class="preview">
+
+  <img (click)="kliknietoElement(10)" [class.active]="numerWybranegoObrazka == 10"
+    src="/assets/images/trasy/noclegi_dla_rowerzystow_wpn_02.jpg" class="thumb">
+
+  <img (click)="kliknietoElement(11)" [class.active]="numerWybranegoObrazka == 11"
+    src="/assets/images/trasy/noclegi_dla_rowerzystow_wpn_05.jpg" class="thumb">
+
+  <img (click)="kliknietoElement(12)" [class.active]="numerWybranegoObrazka == 12"
+    src="/assets/images/trasy/noclegi_dla_rowerzystow_wpn_08.jpg" class="thumb">
+
+  <img (click)="kliknietoElement(13)" [class.active]="numerWybranegoObrazka == 13"
+    src="/assets/images/trasy/noclegi_dla_rowerzystow_wpn_10.jpg" class="thumb">
+
+  <img (click)="kliknietoElement(14)" [class.active]="numerWybranegoObrazka == 14"
+    src="/assets/images/trasy/noclegi_dla_rowerzystow_wpn_11.jpg" class="thumb">
+
+
+</div>

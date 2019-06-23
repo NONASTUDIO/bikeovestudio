@@ -1,0 +1,17 @@
+label {
+    display: block;
+    margin-bottom: 15px;
+
+}
+input {
+    margin-left: 10px;
+}
+textarea{
+    display: block;
+    margin-bottom: 10px;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+     }
+  

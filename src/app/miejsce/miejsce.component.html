@@ -1,0 +1,43 @@
+<div class="container">
+  <h1>MIEJSCE</h1>
+  <br>
+  <p>
+
+    BikeoveSTUDIO położone jest w północnej części Poznania w dzielnicy Starego Miasta, na Umultowie w bezpośrednim
+    sąsiedztwie Doliny Warty. W odległości zaledwie 1 km znajduje się Nadwarciański Szlak Rowerowy, który w jedną stronę
+    wiedzie do Wielkopolskiego Parku Narodowego, w drugą do Puszczy Zielonki z jej 270 km tras rowerowych, w tym Dużym i
+    Małym Pierścieniem Rowerowym wokół Poznania.
+    <br><br>
+    Z drugiej strony, również w odległości 1 km, znajduje się Kampus UAM, gdzie zaczyna się asfaltowa trasa rowerowa,
+    która prowadzi do samego centrum miasta i przecina się z licznymi drogami rowerowymi. Z łatwością poznacie Poznań na
+    rowerze z jego bogatą historią i ciekawą architekturą. To nie tylko parki i skwery, to także cztery duże jeziora w
+    granicach miasta, otoczone trasami rowerowymi. Po drodze nie zabraknie klimatycznych barów i restauracji.
+    <br><br>
+    Wszystkie trasy biorą swój początek w bikeoveSTUDIO…
+
+  </p>
+
+
+  <img *ngIf="numerWybranegoObrazka == 0" src="/assets/images/miejsce/bikeoveSTUDIO_m_01.jpg" class="preview">
+  <img *ngIf="numerWybranegoObrazka == 1" src="/assets/images/miejsce/bikeoveSTUDIO_m_09.jpg" alt="" class="preview">
+  <img *ngIf="numerWybranegoObrazka == 2" src="/assets/images/miejsce/bikeoveSTUDIO_m_12.jpg" alt="" class="preview">
+  <img *ngIf="numerWybranegoObrazka == 3" src="/assets/images/miejsce/bikeoveSTUDIO_m_13.jpg" alt="" class="preview">
+  <img *ngIf="numerWybranegoObrazka == 4" src="/assets/images/miejsce/bikeoveSTUDIO_m_14.jpg" alt="" class="preview">
+
+  <img (click)="kliknietoElement(0)" [class.active]="numerWybranegoObrazka == 0"
+    src="/assets/images/miejsce/bikeoveSTUDIO_m_01.jpg" class="thumb">
+
+  <img (click)="kliknietoElement(1)" [class.active]="numerWybranegoObrazka == 1"
+    src="/assets/images/miejsce/bikeoveSTUDIO_m_09.jpg" class="thumb">
+
+  <img (click)="kliknietoElement(2)" [class.active]="numerWybranegoObrazka == 2"
+    src="/assets/images/miejsce/bikeoveSTUDIO_m_12.jpg" class="thumb">
+
+  <img (click)="kliknietoElement(3)" [class.active]="numerWybranegoObrazka == 3"
+    src="/assets/images/miejsce/bikeoveSTUDIO_m_13.jpg" class="thumb">
+
+  <img (click)="kliknietoElement(4)" [class.active]="numerWybranegoObrazka == 4"
+    src="/assets/images/miejsce/bikeoveSTUDIO_m_14.jpg" class="thumb">
+
+
+</div>
